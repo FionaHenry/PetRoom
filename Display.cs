@@ -3,11 +3,10 @@ using System.Collections.Generic;
 
 namespace PetRoom
 {
-    public class Display
+    class Display
     {
         List<Pet> pets = new List<Pet>();
         Pet cat = new Cat("Fred");
-
         public void DisplayPetRoom()
         {
             foreach (Pet pet in pets)
@@ -18,6 +17,8 @@ namespace PetRoom
                 Console.WriteLine(pet.boredom);
                 Console.WriteLine(pet.hunger);
             }
+
+            
         }
     }
 }
