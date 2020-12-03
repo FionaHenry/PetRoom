@@ -5,9 +5,9 @@ namespace PetRoom
 {
     class Display
     {
-        List<Pet> pets = new List<Pet>();
-        Pet cat = new Cat("Fred");
-        public void DisplayPetRoom()
+        
+        
+        public void DisplayPets(List<Pet> pets)
         {
             foreach (Pet pet in pets)
             {
@@ -17,7 +17,10 @@ namespace PetRoom
                 Console.WriteLine(pet.boredom);
                 Console.WriteLine(pet.hunger);
             }
+        }
 
+        public void DisplayRoom()
+        {
             
         }
     }
