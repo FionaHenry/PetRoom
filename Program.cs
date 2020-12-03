@@ -6,12 +6,9 @@ namespace PetRoom
     {
         static void Main(string[] args)
         {
-            //prolly make an app class later so all this class does is run it... cos SOLID
-            Pet cat = new Cat("Fred");
+            Display display = new Display();
 
-            cat.Display();
-
-            
+            display.DisplayPetRoom();
         }
     }
 }
