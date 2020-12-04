@@ -9,7 +9,7 @@ namespace PetRoom
         static void Main(string[] args)
         {
             Display display = new Display();
-
+            Initialise();
             display.DisplayPets(pets);
 
         }

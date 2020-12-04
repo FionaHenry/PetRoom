@@ -11,17 +11,16 @@ namespace PetRoom
         {
             foreach (Pet pet in pets)
             {
-                Console.WriteLine(pet.sprite);
-                Console.WriteLine(pet.name);
-                Console.WriteLine(pet.health);
-                Console.WriteLine(pet.boredom);
-                Console.WriteLine(pet.hunger);
+                Console.WriteLine($"{pet.sprite} - {pet.name}");
+                Console.WriteLine($"Health {pet.health}");
+                Console.WriteLine($"Boredom: {pet.boredom}");
+                Console.WriteLine($"Hunger: {pet.hunger}");
             }
         }
 
         public void DisplayRoom()
         {
-            
+
         }
     }
 }
