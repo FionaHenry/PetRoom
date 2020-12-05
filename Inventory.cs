@@ -7,7 +7,7 @@ namespace PetRoom
     {
         List<Item> inventory = new List<Item>();
 
-        public int coins;
+        //public int coins;
 
         public void DisplayInventory()
         {

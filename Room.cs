@@ -7,11 +7,19 @@ namespace PetRoom
         public double ambientTemperature = 18;
         public double currentTemperature;
 
-        public void ChangeRoomTemperature()
+        //A method to increase room temperature when player uses an item
+        public void IncreaseRoomTemperature()
         {
-            //some kind of if currentTemperature > ambientTemperature thingy for the temp decreasing over time thing
+            
+        }
 
-            //increasing or decreasing temp when player does a thing for the pets
+        //A method to decrease room temperature
+        public void DecreaseRoomTemperature()
+        {
+            if(currentTemperature >= ambientTemperature)
+            {
+                currentTemperature--;
+            }
         }
     }
 }

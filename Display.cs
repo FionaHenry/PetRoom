@@ -18,9 +18,14 @@ namespace PetRoom
             }
         }
 
-        public void DisplayRoom()
+        public void DisplayMenu()
         {
-
+            Console.SetCursorPosition(50, 1);
+            Console.Write("Menu");
+            Console.SetCursorPosition(50, 3);
+            Console.Write("Open Store - 1");
+            Console.SetCursorPosition(50, 5);
+            Console.Write("Show Inventory - 2");
         }
     }
 }
