@@ -14,8 +14,8 @@ namespace PetRoom
             foreach (Item toy in toys)
             {
                 Console.WriteLine(toy.itemName);
-                Console.WriteLine(toy.itemCost);
-                Console.WriteLine(toy.itemUses);
+                Console.WriteLine($"{toy.itemCost} coins");
+                Console.WriteLine($"Can be used {toy.itemUses} times");
             }
         }
         public void DisplayFoodStore()
@@ -23,8 +23,8 @@ namespace PetRoom
             foreach (Item foodItem in food)
             {
                 Console.WriteLine(foodItem.itemName);
-                Console.WriteLine(foodItem.itemCost);
-                Console.WriteLine(foodItem.itemUses);
+                Console.WriteLine($"{foodItem.itemCost} coins");
+                Console.WriteLine($"Can be used {foodItem.itemUses} times");
             }
         }
         public void DisplayMedicineStore()
@@ -32,8 +32,8 @@ namespace PetRoom
             foreach (Item med in medicine)
             {
                 Console.WriteLine(med.itemName);
-                Console.WriteLine(med.itemName);
-                Console.WriteLine(med.itemName);
+                Console.WriteLine($"{med.itemCost} coins");
+                Console.WriteLine($" Can be used {med.itemUses} times");
             }
         }
     }
