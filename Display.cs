@@ -5,27 +5,25 @@ namespace PetRoom
 {
     class Display
     {
-        
+        Room room = new Room();
         
         public void DisplayPets(List<Pet> pets)
         {
             foreach (Pet pet in pets)
             {
                 Console.WriteLine($"{pet.sprite} - {pet.name}");
-                Console.WriteLine($"Health {pet.health}");
+                Console.WriteLine($"Health: {pet.health}");
                 Console.WriteLine($"Boredom: {pet.boredom}");
                 Console.WriteLine($"Hunger: {pet.hunger}");
             }
+            Console.WriteLine($"Room temperature: {room.currentTemperature}");
         }
 
         public void DisplayMenu()
         {
-            Console.SetCursorPosition(50, 1);
-            Console.Write("Menu");
-            Console.SetCursorPosition(50, 3);
-            Console.Write("Open Store - 1");
-            Console.SetCursorPosition(50, 5);
-            Console.Write("Show Inventory - 2");
+            Console.WriteLine("Menu");
+            Console.WriteLine("Open Store - 1");
+            Console.WriteLine("Show Inventory - 2");
         }
     }
 }

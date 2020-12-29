@@ -11,7 +11,7 @@ namespace PetRoom
             Display display = new Display();
             Initialise();
             display.DisplayPets(pets);
-            //display.DisplayMenu();
+            display.DisplayMenu();
 
         }
         public static void Initialise()
