@@ -13,12 +13,16 @@ namespace PetRoom
             
         }
 
-        //A method to decrease room temperature
-        public void DecreaseRoomTemperature()
+        //A method to change room temperature over time
+        public void AdjustCurrentTemperature()
         {
             if(currentTemperature >= ambientTemperature)
             {
-                currentTemperature--;
+                currentTemperature = currentTemperature - 0.01;
+            }
+            else
+            {
+                currentTemperature = currentTemperature = 0.01;
             }
         }
     }
