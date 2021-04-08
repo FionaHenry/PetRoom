@@ -1,8 +1,8 @@
 using System;
 
-namespace PetRoom
+namespace PetTrySimulation
 {
-    class Pet
+    class Pet : RealTimeComponent
     {
         public string sprite;
         public string name;
@@ -21,13 +21,19 @@ namespace PetRoom
             
         }
 
-        public void Display()
+        public void Initialise()
         {
-            Console.WriteLine(sprite);
-            Console.WriteLine(name);
-            Console.WriteLine(health);
-            Console.WriteLine(hunger);
-            Console.WriteLine(boredom);
+            
+        }
+
+        public void Update()
+        {
+            if(health>0)
+            {
+            health -= 1;
+            }
+            boredom += 1;
+            hunger += 1;
         }
     }
 }

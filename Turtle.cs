@@ -1,6 +1,6 @@
 using System;
 
-namespace PetRoom
+namespace PetTrySimulation
 {
     class Turtle : Pet
     {

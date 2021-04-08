@@ -11,3 +11,16 @@ C:\Users\Fiona Henry\OneDrive\Documents\GitHub\OOP2020\011MOD005437\PetRoom\obj\
 C:\Users\Fiona Henry\OneDrive\Documents\GitHub\OOP2020\011MOD005437\PetRoom\obj\Debug\netcoreapp3.1\PetRoom.dll
 C:\Users\Fiona Henry\OneDrive\Documents\GitHub\OOP2020\011MOD005437\PetRoom\obj\Debug\netcoreapp3.1\PetRoom.pdb
 C:\Users\Fiona Henry\OneDrive\Documents\GitHub\OOP2020\011MOD005437\PetRoom\obj\Debug\netcoreapp3.1\PetRoom.genruntimeconfig.cache
+C:\Users\Fiona Henry\OneDrive\Documents\GitHub\OOP2020\PetTrySimulation\bin\Debug\netcoreapp3.1\PetRoom.exe
+C:\Users\Fiona Henry\OneDrive\Documents\GitHub\OOP2020\PetTrySimulation\bin\Debug\netcoreapp3.1\PetRoom.deps.json
+C:\Users\Fiona Henry\OneDrive\Documents\GitHub\OOP2020\PetTrySimulation\bin\Debug\netcoreapp3.1\PetRoom.runtimeconfig.json
+C:\Users\Fiona Henry\OneDrive\Documents\GitHub\OOP2020\PetTrySimulation\bin\Debug\netcoreapp3.1\PetRoom.runtimeconfig.dev.json
+C:\Users\Fiona Henry\OneDrive\Documents\GitHub\OOP2020\PetTrySimulation\bin\Debug\netcoreapp3.1\PetRoom.dll
+C:\Users\Fiona Henry\OneDrive\Documents\GitHub\OOP2020\PetTrySimulation\bin\Debug\netcoreapp3.1\PetRoom.pdb
+C:\Users\Fiona Henry\OneDrive\Documents\GitHub\OOP2020\PetTrySimulation\obj\Debug\netcoreapp3.1\PetRoom.csprojAssemblyReference.cache
+C:\Users\Fiona Henry\OneDrive\Documents\GitHub\OOP2020\PetTrySimulation\obj\Debug\netcoreapp3.1\PetRoom.AssemblyInfoInputs.cache
+C:\Users\Fiona Henry\OneDrive\Documents\GitHub\OOP2020\PetTrySimulation\obj\Debug\netcoreapp3.1\PetRoom.AssemblyInfo.cs
+C:\Users\Fiona Henry\OneDrive\Documents\GitHub\OOP2020\PetTrySimulation\obj\Debug\netcoreapp3.1\PetRoom.csproj.CoreCompileInputs.cache
+C:\Users\Fiona Henry\OneDrive\Documents\GitHub\OOP2020\PetTrySimulation\obj\Debug\netcoreapp3.1\PetRoom.dll
+C:\Users\Fiona Henry\OneDrive\Documents\GitHub\OOP2020\PetTrySimulation\obj\Debug\netcoreapp3.1\PetRoom.pdb
+C:\Users\Fiona Henry\OneDrive\Documents\GitHub\OOP2020\PetTrySimulation\obj\Debug\netcoreapp3.1\PetRoom.genruntimeconfig.cache

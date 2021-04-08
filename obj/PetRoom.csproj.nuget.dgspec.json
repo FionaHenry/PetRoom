@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fiona Henry\\OneDrive\\Documents\\GitHub\\OOP2020\\011MOD005437\\PetRoom\\PetRoom.csproj": {}
+    "C:\\Users\\Fiona Henry\\OneDrive\\Documents\\GitHub\\OOP2020\\PetTrySimulation\\PetRoom.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fiona Henry\\OneDrive\\Documents\\GitHub\\OOP2020\\011MOD005437\\PetRoom\\PetRoom.csproj": {
+    "C:\\Users\\Fiona Henry\\OneDrive\\Documents\\GitHub\\OOP2020\\PetTrySimulation\\PetRoom.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fiona Henry\\OneDrive\\Documents\\GitHub\\OOP2020\\011MOD005437\\PetRoom\\PetRoom.csproj",
+        "projectUniqueName": "C:\\Users\\Fiona Henry\\OneDrive\\Documents\\GitHub\\OOP2020\\PetTrySimulation\\PetRoom.csproj",
         "projectName": "PetRoom",
-        "projectPath": "C:\\Users\\Fiona Henry\\OneDrive\\Documents\\GitHub\\OOP2020\\011MOD005437\\PetRoom\\PetRoom.csproj",
+        "projectPath": "C:\\Users\\Fiona Henry\\OneDrive\\Documents\\GitHub\\OOP2020\\PetTrySimulation\\PetRoom.csproj",
         "packagesPath": "C:\\Users\\Fiona Henry\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fiona Henry\\OneDrive\\Documents\\GitHub\\OOP2020\\011MOD005437\\PetRoom\\obj\\",
+        "outputPath": "C:\\Users\\Fiona Henry\\OneDrive\\Documents\\GitHub\\OOP2020\\PetTrySimulation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

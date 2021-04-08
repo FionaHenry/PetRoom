@@ -1,6 +1,6 @@
 using System;
 
-namespace PetRoom
+namespace PetTrySimulation
 {
     public class Item
     {

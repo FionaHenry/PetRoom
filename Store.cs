@@ -1,13 +1,14 @@
 using System;
 using System.Collections.Generic;
 
-namespace PetRoom
+namespace PetTrySimulation
 {
     class Store
     {
         List<Item> toys = new List<Item>();
         List<Item> food = new List<Item>();
         List<Item> medicine = new List<Item>();
+
 
         public void DisplayToyStore()
         {
@@ -18,6 +19,7 @@ namespace PetRoom
                 Console.WriteLine($"Can be used {toy.itemUses} times");
             }
         }
+        
         public void DisplayFoodStore()
         {
             foreach (Item foodItem in food)
