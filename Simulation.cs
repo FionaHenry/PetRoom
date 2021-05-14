@@ -18,6 +18,8 @@ namespace PetTrySimulation
         Counter counter = new Counter(1000);
         Display display = new Display();
         Store store = new Store();
+        Room room = new Room();
+        Inventory playerInventory = new Inventory();
         static List<Pet> pets = new List<Pet>();
         AppState appState = AppState.Running;
 
@@ -28,7 +30,6 @@ namespace PetTrySimulation
 
         public void Run()
         {
-            Inventory playerInventory = new Inventory();
             Initialise();
             
             do
@@ -40,25 +41,26 @@ namespace PetTrySimulation
                 {
                     case AppState.Running:
                     Running();
-                    Console.WriteLine("running");
                         break;
                     case AppState.Store:
                     Store();
-                    Console.WriteLine("store");
                         break;
                     case AppState.Inventory:
                     Inventory();
-                    Console.WriteLine("Inventory");
                         break;
                     default:
                         break;
                 }
                 
+                room.AdjustCurrentTemperature();
                 Update();
                 foreach(Pet pet in pets)
                 {
                     pet.Update();
                 }
+                
+                display.DisplayMenu();
+
 
                 Thread.Sleep(1000);
             } while (appState != AppState.Exiting);
@@ -71,22 +73,26 @@ namespace PetTrySimulation
             pets.Add(cat);
             display.DisplayPets(pets);
             display.DisplayMenu();
+            store.InitialiseStore();
         }
 
         public void Running()
         {
             display.DisplayPets(pets);
-            display.DisplayMenu();
         }
 
         public void Store()
         {
-            
+            //create a display store method in Store with switch cases (or just do 1 store because no time)
+            // Console.WriteLine("Toy Store");
+            // Console.WriteLine("Food Store");
+            // Console.WriteLine("Medicine Store");
+            store.DisplayFoodStore();
         }
 
         public void Inventory()
         {
-            
+            playerInventory.DisplayInventory();
         }
 
         public void CheckKeyInput()

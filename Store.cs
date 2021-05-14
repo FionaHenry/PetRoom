@@ -14,9 +14,7 @@ namespace PetTrySimulation
         {
             foreach (Item toy in toys)
             {
-                Console.WriteLine(toy.itemName);
-                Console.WriteLine($"{toy.itemCost} coins");
-                Console.WriteLine($"Can be used {toy.itemUses} times");
+                Console.WriteLine($"{toy.itemName}, {toy.itemCost} coins, can be used {toy.itemUses} times");
             }
         }
         
@@ -24,19 +22,21 @@ namespace PetTrySimulation
         {
             foreach (Item foodItem in food)
             {
-                Console.WriteLine(foodItem.itemName);
-                Console.WriteLine($"{foodItem.itemCost} coins");
-                Console.WriteLine($"Can be used {foodItem.itemUses} times");
+                Console.WriteLine($"{foodItem.itemName}, {foodItem.itemCost} coins, can be used {foodItem.itemUses} times");
             }
         }
         public void DisplayMedicineStore()
         {
             foreach (Item med in medicine)
             {
-                Console.WriteLine(med.itemName);
-                Console.WriteLine($"{med.itemCost} coins");
-                Console.WriteLine($" Can be used {med.itemUses} times");
+                Console.WriteLine($"{med.itemName}, {med.itemCost} coins, can be used {med.itemUses} times");
             }
+        }
+
+        public void InitialiseStore()
+        {
+            food.Add(new Item("Cat Food", 5, 2));
+            food.Add(new Item("Luxury Cat Food", 6, 1));
         }
     }
 }

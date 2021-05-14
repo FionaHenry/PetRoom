@@ -5,25 +5,19 @@ namespace PetTrySimulation
     class Room
     {
         public double ambientTemperature = 18;
-        public double currentTemperature;
+        public double currentTemperature = 24;
+
 
         //A method to increase room temperature when player uses an item
         public void IncreaseRoomTemperature()
         {
-            
+            currentTemperature += 5;
         }
 
         //A method to change room temperature over time
         public void AdjustCurrentTemperature()
         {
-            if(currentTemperature >= ambientTemperature)
-            {
-                currentTemperature = currentTemperature - 0.01;
-            }
-            else
-            {
-                currentTemperature = currentTemperature = 0.01;
-            }
+            currentTemperature -= 0.1;
         }
     }
 }

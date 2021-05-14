@@ -18,10 +18,5 @@ namespace PetTrySimulation
                 Console.WriteLine($"Uses remaining: {item.itemUses}");
             }
         }
-
-        public void AddInventory()
-        {
-            
-        }
     }
 }
