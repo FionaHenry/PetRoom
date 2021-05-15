@@ -14,15 +14,15 @@ namespace PetTrySimulation
             currentTemperature += 5;
         }
 
-        public void Initialise()
-        {
-            
-        }
-
         //A method to change room temperature over time
         public void Update()
         {
             currentTemperature -= 0.1;
+        }
+
+        public void Initialise()
+        {
+            
         }
     }
 }

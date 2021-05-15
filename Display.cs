@@ -5,7 +5,7 @@ namespace PetTrySimulation
 {
     class Display
     {
-        Room room = new Room();
+        public static Room room = new Room();
         
         public void DisplayPets(List<Pet> pets)
         {
@@ -16,7 +16,7 @@ namespace PetTrySimulation
                 Console.WriteLine($"Boredom: {pet.boredom}");
                 Console.WriteLine($"Hunger: {pet.hunger}");
             }
-            Console.WriteLine($"Room temperature: {room.currentTemperature}");
+            Console.WriteLine($"Room temperature: {Math.Round(room.currentTemperature, 2)}");
         }
 
         public void DisplayMenu()

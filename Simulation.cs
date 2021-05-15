@@ -18,7 +18,6 @@ namespace PetTrySimulation
         Counter counter = new Counter(1000);
         Display display = new Display();
         Store store = new Store();
-        Room room = new Room();
         Inventory playerInventory = new Inventory();
         static List<Pet> pets = new List<Pet>();
         AppState appState = AppState.Running;
@@ -52,7 +51,6 @@ namespace PetTrySimulation
                         break;
                 }
                 
-                room.Update();
                 Update();
                 foreach(Pet pet in pets)
                 {
@@ -79,6 +77,7 @@ namespace PetTrySimulation
         public void Running()
         {
             display.DisplayPets(pets);
+            Console.WriteLine($"You have {playerInventory.coins} coins available to spend");
         }
 
         public void Store()
@@ -127,6 +126,8 @@ namespace PetTrySimulation
         public void Update()
         {
             counter.Update();
+            Display.room.Update();
+            playerInventory.Update();
         }
     }
 }
