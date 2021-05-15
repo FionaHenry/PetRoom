@@ -33,5 +33,6 @@ namespace PetTrySimulation
             Console.WriteLine("2 - Food Store");
             Console.WriteLine("3 - Medicine Store");
         }
+        
     }
 }

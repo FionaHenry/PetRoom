@@ -52,7 +52,7 @@ namespace PetTrySimulation
                         break;
                 }
                 
-                room.AdjustCurrentTemperature();
+                room.Update();
                 Update();
                 foreach(Pet pet in pets)
                 {
@@ -83,11 +83,12 @@ namespace PetTrySimulation
 
         public void Store()
         {
-            //create a display store method in Store with switch cases (or just do 1 store because no time)
-            // Console.WriteLine("Toy Store");
-            // Console.WriteLine("Food Store");
-            // Console.WriteLine("Medicine Store");
+            Console.WriteLine("Toy Store");
+            store.DisplayToyStore();
+            Console.WriteLine("Food Store");
             store.DisplayFoodStore();
+            Console.WriteLine("Medicine Store");
+            store.DisplayMedicineStore();
         }
 
         public void Inventory()

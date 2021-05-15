@@ -2,7 +2,7 @@ using System;
 
 namespace PetTrySimulation
 {
-    class Room
+    class Room : RealTimeComponent
     {
         public double ambientTemperature = 18;
         public double currentTemperature = 24;
@@ -14,8 +14,13 @@ namespace PetTrySimulation
             currentTemperature += 5;
         }
 
+        public void Initialise()
+        {
+            
+        }
+
         //A method to change room temperature over time
-        public void AdjustCurrentTemperature()
+        public void Update()
         {
             currentTemperature -= 0.1;
         }

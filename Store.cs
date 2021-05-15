@@ -37,6 +37,9 @@ namespace PetTrySimulation
         {
             food.Add(new Item("Cat Food", 5, 2));
             food.Add(new Item("Luxury Cat Food", 6, 1));
+            toys.Add(new Item("Small Cat Toy", 5, 1));
+            toys.Add(new Item("Luxury Cat Toy", 25, 10));
+            medicine.Add(new Item("Cat Medicine", 5, 2));
         }
     }
 }
