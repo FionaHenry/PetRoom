@@ -28,7 +28,7 @@ namespace PetTrySimulation
 
         public void Update()
         {
-            if(health>0)
+            if(hunger>25)
             {
             health -= 1;
             }
