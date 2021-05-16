@@ -36,15 +36,40 @@ namespace PetTrySimulation
         public void InitialiseStore()
         {
             food.Add(new Item("Cat Food", 5, 2));
-            food.Add(new Item("Luxury Cat Food", 6, 1));
+            food.Add(new Item("Luxury Cat Food", 8, 1));
             toys.Add(new Item("Small Cat Toy", 5, 1));
             toys.Add(new Item("Luxury Cat Toy", 25, 10));
             medicine.Add(new Item("Cat Medicine", 5, 2));
         }
 
-        public void PurchaseItem()
+        public void PurchaseCatFood()
         {
-            
+            Inventory.inventory.Add(new Item("Cat Food", 5, 2));
+            Simulation.playerInventory.coins -= 5;
+        }
+
+        public void PurchaseLuxuryFood()
+        {
+            Inventory.inventory.Add(new Item("Luxury Cat Food", 8, 1));
+            Simulation.playerInventory.coins -= 8;
+        }
+
+        public void PurchaseCatToy()
+        {
+            Inventory.inventory.Add(new Item("Small Cat Toy", 5, 1));
+            Simulation.playerInventory.coins -= 5;
+        }
+
+        public void PurchaseLuxuryCatToy()
+        {
+            Inventory.inventory.Add(new Item("Luxury Cat Toy", 25, 10));
+            Simulation.playerInventory.coins -= 25;
+        }
+
+        public void PurchaseCatMedicine()
+        {
+            Inventory.inventory.Add(new Item("Cat Medicine", 5, 2));
+            Simulation.playerInventory.coins -= 5;
         }
     }
 }

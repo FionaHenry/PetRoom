@@ -123,27 +123,27 @@ namespace PetTrySimulation
 
                 if (keyPressed == ConsoleKey.A)
                 {
-                    
+                    store.PurchaseCatFood();
                 }
 
                 if (keyPressed == ConsoleKey.B)
                 {
-
+                    store.PurchaseLuxuryFood();
                 }
 
                 if (keyPressed == ConsoleKey.C)
                 {
-
+                    store.PurchaseCatToy();
                 }
 
                 if (keyPressed == ConsoleKey.D)
                 {
-
+                    store.PurchaseLuxuryCatToy();
                 }
 
                 if (keyPressed == ConsoleKey.E)
                 {
-
+                    store.PurchaseCatMedicine();
                 }
 
                 if (keyPressed == ConsoleKey.T)

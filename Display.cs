@@ -35,12 +35,12 @@ namespace PetTrySimulation
             Console.WriteLine("Show Pets - 3");
         }
 
-        public void DisplayStore()
-        {
-            Console.WriteLine("1 - Toy Store");
-            Console.WriteLine("2 - Food Store");
-            Console.WriteLine("3 - Medicine Store");
-        }
+        // public void DisplayStore()
+        // {
+        //     Console.WriteLine("1 - Toy Store");
+        //     Console.WriteLine("2 - Food Store");
+        //     Console.WriteLine("3 - Medicine Store");
+        // }
         
     }
 }
