@@ -17,8 +17,8 @@ namespace PetTrySimulation
     {
         Counter counter = new Counter(1000);
         Display display = new Display();
-        Store store = new Store();
-        Inventory playerInventory = new Inventory();
+        public static Store store = new Store();
+        public static Inventory playerInventory = new Inventory();
         static List<Pet> pets = new List<Pet>();
         AppState appState = AppState.Running;
 
@@ -119,6 +119,36 @@ namespace PetTrySimulation
                 if (keyPressed == ConsoleKey.NumPad3 || keyPressed == ConsoleKey.D3)
                 {
                     appState = AppState.Running;
+                }
+
+                if (keyPressed == ConsoleKey.A)
+                {
+                    
+                }
+
+                if (keyPressed == ConsoleKey.B)
+                {
+
+                }
+
+                if (keyPressed == ConsoleKey.C)
+                {
+
+                }
+
+                if (keyPressed == ConsoleKey.D)
+                {
+
+                }
+
+                if (keyPressed == ConsoleKey.E)
+                {
+
+                }
+
+                if (keyPressed == ConsoleKey.T)
+                {
+                    Display.room.IncreaseRoomTemperature();
                 }
             }
         }

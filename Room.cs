@@ -12,12 +12,16 @@ namespace PetTrySimulation
         public void IncreaseRoomTemperature()
         {
             currentTemperature += 5;
+            Simulation.playerInventory.coins -= 4;
         }
 
         //A method to change room temperature over time
         public void Update()
         {
-            currentTemperature -= 0.1;
+            if (currentTemperature > ambientTemperature)
+            {
+                currentTemperature -= 0.1;
+            }
         }
 
         public void Initialise()

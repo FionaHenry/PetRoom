@@ -41,5 +41,10 @@ namespace PetTrySimulation
             toys.Add(new Item("Luxury Cat Toy", 25, 10));
             medicine.Add(new Item("Cat Medicine", 5, 2));
         }
+
+        public void PurchaseItem()
+        {
+            
+        }
     }
 }

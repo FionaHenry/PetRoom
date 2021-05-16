@@ -16,7 +16,15 @@ namespace PetTrySimulation
                 Console.WriteLine($"Boredom: {pet.boredom}");
                 Console.WriteLine($"Hunger: {pet.hunger}");
             }
-            Console.WriteLine($"Room temperature: {Math.Round(room.currentTemperature, 2)}");
+            if (room.currentTemperature > 18)
+            {
+                Console.WriteLine($"Room temperature: {Math.Round(room.currentTemperature, 2)}");
+            }
+            else
+            {
+                Console.WriteLine ($"Room temperature is {Math.Round(room.currentTemperature, 2)}");
+                Console.WriteLine("Press T to make your pet more comfortable, this will cost 4 coins");
+            }
         }
 
         public void DisplayMenu()
