@@ -18,6 +18,9 @@ namespace PetTrySimulation
                 Console.WriteLine(item.itemName);
                 Console.WriteLine($"Uses remaining: {item.itemUses}");
             }
+            Console.WriteLine("Press 4 to feed your pet");
+            Console.WriteLine("Press 5 to play with your pet");
+            Console.WriteLine("Press 6 to give your pet medicine");
         }
 
         public void Update()
