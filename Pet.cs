@@ -18,7 +18,7 @@ namespace PetTrySimulation
 
         public void FeedPet()
         {
-            
+            hunger-=5;
         }
 
         public void Initialise()
@@ -34,6 +34,11 @@ namespace PetTrySimulation
             }
             boredom += 1;
             hunger += 1;
+
+            if (Display.room.currentTemperature == Display.room.ambientTemperature)
+            {
+                health -= 1;
+            }
         }
     }
 }

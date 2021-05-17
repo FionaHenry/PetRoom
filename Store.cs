@@ -16,6 +16,8 @@ namespace PetTrySimulation
             {
                 Console.WriteLine($"{toy.itemName}, {toy.itemCost} coins, can be used {toy.itemUses} times");
             }
+            Console.WriteLine("Press C to purchase Small Cat Toy");
+            Console.WriteLine("Press D to purchase Luxury Cat Toy");
         }
         
         public void DisplayFoodStore()
@@ -24,6 +26,8 @@ namespace PetTrySimulation
             {
                 Console.WriteLine($"{foodItem.itemName}, {foodItem.itemCost} coins, can be used {foodItem.itemUses} times");
             }
+            Console.WriteLine("Press A to purchase Cat Food");
+            Console.WriteLine("Press B to purchase Luxury Cat Food");
         }
         public void DisplayMedicineStore()
         {
@@ -31,6 +35,7 @@ namespace PetTrySimulation
             {
                 Console.WriteLine($"{med.itemName}, {med.itemCost} coins, can be used {med.itemUses} times");
             }
+            Console.WriteLine("Press E to purchase Cat Medicine");
         }
 
         public void InitialiseStore()

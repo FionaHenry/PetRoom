@@ -82,10 +82,10 @@ namespace PetTrySimulation
 
         public void Store()
         {
-            Console.WriteLine("Toy Store");
-            store.DisplayToyStore();
             Console.WriteLine("Food Store");
             store.DisplayFoodStore();
+            Console.WriteLine("Toy Store");
+            store.DisplayToyStore();
             Console.WriteLine("Medicine Store");
             store.DisplayMedicineStore();
         }
