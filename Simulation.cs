@@ -120,6 +120,30 @@ namespace PetTrySimulation
                 {
                     appState = AppState.Running;
                 }
+                
+                if (keyPressed == ConsoleKey.NumPad4 || keyPressed == ConsoleKey.D4)
+                {
+                    foreach (Pet pet in pets)
+                    {
+                        pet.FeedPet();
+                    }
+                }
+
+                if (keyPressed == ConsoleKey.NumPad5 || keyPressed == ConsoleKey.D5)
+                {
+                    foreach (Pet pet in pets)
+                    {
+                        pet.Play();
+                    }
+                }
+
+                if (keyPressed == ConsoleKey.NumPad6 || keyPressed == ConsoleKey.D6)
+                {
+                    foreach (Pet pet in pets)
+                    {
+                        pet.GiveMedicine();
+                    }
+                }
 
                 if (keyPressed == ConsoleKey.A)
                 {

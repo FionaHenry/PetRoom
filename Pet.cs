@@ -26,6 +26,11 @@ namespace PetTrySimulation
             boredom-=5;
         }
 
+        public void GiveMedicine()
+        {
+            health+=5;
+        }
+
         public void Initialise()
         {
             
