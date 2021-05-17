@@ -21,6 +21,11 @@ namespace PetTrySimulation
             hunger-=5;
         }
 
+        public void Play()
+        {
+            boredom-=5;
+        }
+
         public void Initialise()
         {
             
